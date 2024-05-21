@@ -112,10 +112,33 @@ legend {
 
 button {
     margin-left: 50px;
+    width: 14vw;
+    height: 5.5vh;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(70, 166, 214);
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+button:hover {
+    cursor: pointer;
 }
 
 .already {
     margin-left: 50px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.log-in {
+    font-family: sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color: rgb(70, 166, 214);
+
 }
 
 .form-row input[type="text"],
