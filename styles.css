@@ -70,27 +70,34 @@ body {
     background-color: rgba(251, 251, 251, 0.83);
     font-family: sans-serif;
     font-weight: bold;
-    margin-left: 50px;
-    margin-top: 50px;
 
 }
-
+.first-text {
+    margin-left: 50px;
+    margin-top: 50px;
+}
 .second-text {
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .second-section {
     height: 33vh;
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
 
+}
+
+.third-section {
+    height: 33vh;
+    background-color: rgba(251, 251, 251, 0.83);
 }
 
 legend {
     font-size: 1.5vw;
     font-family: sans-serif;
     font-weight: bold;
+    margin-left: 50px;
 }
 
 .form-row {
@@ -100,6 +107,15 @@ legend {
     font-family: sans-serif;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 50px;
+}
+
+button {
+    margin-left: 50px;
+}
+
+.already {
+    margin-left: 50px;
 }
 
 .form-row input[type="text"],
