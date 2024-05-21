@@ -94,6 +94,7 @@ body {
 }
 
 legend {
+    margin-top: 20px;
     font-size: 1.5vw;
     font-family: sans-serif;
     font-weight: bold;
@@ -112,6 +113,7 @@ legend {
 
 button {
     margin-left: 50px;
+    margin-top: 50px;
     width: 14vw;
     height: 5.5vh;
     border-radius: 5px;
