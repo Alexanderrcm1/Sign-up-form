@@ -154,6 +154,17 @@ button:hover {
     background-color: rgba(251, 251, 251, 0.83);
 }
 
+.form-row input[type="email"]:invalid {
+    box-shadow: none;
+    border: 2px solid red;
+}
+
+.form-row input[type="password"]:invalid {
+    box-shadow: none;
+    border: 2px solid red;
+}
+
+
 .fn, .ln, .mail, .pn, .pw, .cpw {
     display: flex;
     flex-direction: column;
