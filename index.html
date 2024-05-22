@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="page">
@@ -23,7 +24,7 @@
                 <div class="second-text">You <em>know</em> you want to.</div>
             </div>
             <div class="second-section">
-                <form action="" method="post">
+                <form action="" method="get">
                     <legend>Let's do this!</legend>
 
                     <div class="form-row">
@@ -51,16 +52,17 @@
                     <div class="form-row">
                         <div class="pw">
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" name="pwd" id="pwd" minlength="8" required>
+                            <input type="password" name="pwd" id="pwd" required>
+                            <p class="error"></p>
                         </div>
                         <div class="cpw">
                             <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirm-pwd" id="confirm-pwd" minlength="8" required>
+                            <input type="password" name="confirm-pwd" id="confirm-pwd" required>
                         </div>
                     </div>
                     <div class="third-section">
                         <button type="submit">Create Account</button>
-                        <p class="already">Already have an account? <span class="log-in">Log in</span></p>
+                        <p class="already">Already have an account? <a href="Log in">Log in</a></p>
                     </div>
                 </form>
             </div>
